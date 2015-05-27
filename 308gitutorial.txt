@@ -1,0 +1,11 @@
+//arata toate snapsshoturile cu hashul comlet, autorul si data snapshotului
+
+git log
+
+//arata doar primele 7 caractete din hash-ul snapshotului
+
+git log --oneline
+
+//arata modificarile dar pe o singura linie
+
+git status -s
