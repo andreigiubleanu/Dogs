@@ -9,3 +9,15 @@ git log --oneline
 //arata modificarile dar pe o singura linie
 
 git status -s
+
+//pentru a se conecta la github, trebuie creat un cont pe github.com
+//si apoi o cheie SSH, ce consta dintr-o pereche de chei RSA
+//una publica pe server si una privata pe pc, ce leaga contul creat pe github.com de pcul local
+//urmatoarea comanda creaza perchile de chei privata/publica
+//versiune de windows
+
+
+ssh-keygen -t rsa -C "andrei.giubleanu@gmail.com"
+
+//pentru a testa daca am realizat autentificarea/functionarea comunicarii cu github
+ssh -t git@github.com
